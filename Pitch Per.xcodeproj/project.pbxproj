@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2A35E21B6010CE0084F681 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A35E11B6010CE0084F681 /* PlaySoundsViewController.swift */; };
+		4F2A35E41B6050B90084F681 /* Forgiveness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A35E31B6050B90084F681 /* Forgiveness.mp3 */; };
 		4F784FF91B5439A700275280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F784FF81B5439A700275280 /* AppDelegate.swift */; };
-		4F784FFB1B5439A700275280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F784FFA1B5439A700275280 /* ViewController.swift */; };
+		4F784FFB1B5439A700275280 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F784FFA1B5439A700275280 /* RecordSoundViewController.swift */; };
 		4F784FFE1B5439A700275280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F784FFC1B5439A700275280 /* Main.storyboard */; };
 		4F7850001B5439A700275280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F784FFF1B5439A700275280 /* Images.xcassets */; };
 		4F7850031B5439A700275280 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F7850011B5439A700275280 /* LaunchScreen.xib */; };
 		4F78500F1B5439A700275280 /* Pitch_PerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78500E1B5439A700275280 /* Pitch_PerTests.swift */; };
+		4F9B05AC1B619274004DF424 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B05AB1B619274004DF424 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F2A35E11B6010CE0084F681 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		4F2A35E31B6050B90084F681 /* Forgiveness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forgiveness.mp3; sourceTree = "<group>"; };
 		4F784FF31B5439A700275280 /* Pitch Per.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Per.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F784FF71B5439A700275280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F784FF81B5439A700275280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F784FFA1B5439A700275280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F784FFA1B5439A700275280 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		4F784FFD1B5439A700275280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F784FFF1B5439A700275280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F7850021B5439A700275280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F7850081B5439A700275280 /* Pitch PerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F78500D1B5439A700275280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F78500E1B5439A700275280 /* Pitch_PerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerTests.swift; sourceTree = "<group>"; };
+		4F9B05AB1B619274004DF424 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				4F784FF81B5439A700275280 /* AppDelegate.swift */,
-				4F784FFA1B5439A700275280 /* ViewController.swift */,
+				4F784FFA1B5439A700275280 /* RecordSoundViewController.swift */,
 				4F784FFC1B5439A700275280 /* Main.storyboard */,
+				4F9B05AB1B619274004DF424 /* RecordedAudio.swift */,
+				4F2A35E11B6010CE0084F681 /* PlaySoundsViewController.swift */,
 				4F784FFF1B5439A700275280 /* Images.xcassets */,
 				4F7850011B5439A700275280 /* LaunchScreen.xib */,
 				4F784FF61B5439A700275280 /* Supporting Files */,
@@ -90,6 +98,7 @@
 		4F784FF61B5439A700275280 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F2A35E31B6050B90084F681 /* Forgiveness.mp3 */,
 				4F784FF71B5439A700275280 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2A35E41B6050B90084F681 /* Forgiveness.mp3 in Resources */,
 				4F784FFE1B5439A700275280 /* Main.storyboard in Resources */,
 				4F7850031B5439A700275280 /* LaunchScreen.xib in Resources */,
 				4F7850001B5439A700275280 /* Images.xcassets in Resources */,
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F784FFB1B5439A700275280 /* ViewController.swift in Sources */,
+				4F9B05AC1B619274004DF424 /* RecordedAudio.swift in Sources */,
+				4F784FFB1B5439A700275280 /* RecordSoundViewController.swift in Sources */,
+				4F2A35E21B6010CE0084F681 /* PlaySoundsViewController.swift in Sources */,
 				4F784FF91B5439A700275280 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				4F7850141B5439A700275280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F7850151B5439A700275280 /* Build configuration list for PBXNativeTarget "Pitch PerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				4F7850171B5439A700275280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
